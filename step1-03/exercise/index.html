@@ -1,65 +1,9 @@
-<html>
-  <body>
-    <div
-      class="codepen"
-      data-theme-id="36294"
-      data-prefill
-      data-editable="true"
-      data-height="100%"
-      data-theme-id="1"
-      data-default-tab="js,result"
-    >
-      <pre data-lang="css">
-label,
-button {
-  display: block;
-  margin-bottom: 10px;
-}
-      </pre>
-      <pre data-lang="html">
-&lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt;Ice cream&lt;/label&gt;
-&lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt;Pizza&lt;/label&gt;
-&lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt;Tacos&lt;/label&gt;
-&lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt;Meatloaf&lt;/label&gt;
-&lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt;Brocolli&lt;/label&gt;
 
-&lt;button&gt;Display Your Favorites&lt;/button&gt;
+<!-- saved from url=(0040)http://localhost:8082/step1-03/exercise/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head><body data-new-gr-c-s-check-loaded="14.1000.0" data-gr-ext-installed="" data-pt-ext-theme="dark" data-pt-ext-size="standard" data-new-gr-c-s-loaded="14.1000.0">
+    <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="100%" width="100%" name="cp_embed_1" scrolling="no" src="./index_files/prefill.html" style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed"></iframe><form class="cp_embed_form" style="display: none;" method="post" action="https://codepen.io/embed/prefill" target="cp_embed_1"><input type="hidden" name="theme-id" value="36294"><input type="hidden" name="editable" value="true"><input type="hidden" name="height" value="100%"><input type="hidden" name="default-tab" value="js,result"><input type="hidden" name="user" value="anon"><input type="hidden" name="name" value="cp_embed_1"><input type="hidden" name="data" value="{&quot;css&quot;:&quot;label,\nbutton {\n  display: block;\n  margin-bottom: 10px;\n}\n      &quot;,&quot;html&quot;:&quot;&lt;label&gt;&lt;input type=\&quot;checkbox\&quot; /&gt;Ice cream&lt;/label&gt;\n&lt;label&gt;&lt;input type=\&quot;checkbox\&quot; /&gt;Pizza&lt;/label&gt;\n&lt;label&gt;&lt;input type=\&quot;checkbox\&quot; /&gt;Tacos&lt;/label&gt;\n&lt;label&gt;&lt;input type=\&quot;checkbox\&quot; /&gt;Meatloaf&lt;/label&gt;\n&lt;label&gt;&lt;input type=\&quot;checkbox\&quot; /&gt;Brocolli&lt;/label&gt;\n\n&lt;button&gt;Display Your Favorites&lt;/button&gt;\n\n&lt;div class=\&quot;favorites\&quot;&gt;&lt;/div&gt;\n      &quot;,&quot;js&quot;:&quot;/*\n1. Create a function named `getFavs`. Inside, run:\n    alert(&#39;clicked&#39;)\n\n2. Create a variable `button` and set it to a reference to our button using:\n    document.querySelector(&#39;button&#39;)\n\n3. Add a click event listener to the button that calls `getFavs`.\n   Click the button and make sure the alert is displayed.\n\n4. Replace the `alert` call with a new `favList` variable set to an empty array: []\n\n5. Create a const variable `inputs` set to all of the inputs on the page.\n   `querySelectorAll` will help here.\n\n6. Iterate over all of the inputs using:\n    for (const input of inputs) {}\n\n7. In each iteration, use an `if` statement to check if `input.checked` is equal to true\n\n8. If the above tests passes, push the `input.parentNode.textContent` into the `favList`\n   array by passing the text as a parameter to `favList.push()`\n  - `push` is a built-in array method: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push\n\n9. Outside of the for loop, use `document.querySelector(&#39;.favorites&#39;)` to target the\n   div at the bottom of the page. Set the div&#39;s `textContent` to `favList.join(&#39; &#39;)`.\n   This will join each of the foods together into a string separated by a space.\n*/\n\n      &quot;}"></form></div>
 
-&lt;div class=&quot;favorites&quot;&gt;&lt;/div&gt;
-      </pre>
-      <pre data-lang="js">
-/*
-1. Create a function named `getFavs`. Inside, run:
-    alert('clicked')
+    <script async="" src="./index_files/ei.js.download"></script>
+  
 
-2. Create a variable `button` and set it to a reference to our button using:
-    document.querySelector('button')
-
-3. Add a click event listener to the button that calls `getFavs`.
-   Click the button and make sure the alert is displayed.
-
-4. Replace the `alert` call with a new `favList` variable set to an empty array: []
-
-5. Create a const variable `inputs` set to all of the inputs on the page.
-   `querySelectorAll` will help here.
-
-6. Iterate over all of the inputs using:
-    for (const input of inputs) {}
-
-7. In each iteration, use an `if` statement to check if `input.checked` is equal to true
-
-8. If the above tests passes, push the `input.parentNode.textContent` into the `favList`
-   array by passing the text as a parameter to `favList.push()`
-  - `push` is a built-in array method: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
-
-9. Outside of the for loop, use `document.querySelector('.favorites')` to target the
-   div at the bottom of the page. Set the div's `textContent` to `favList.join(' ')`.
-   This will join each of the foods together into a string separated by a space.
-*/
-
-      </pre>
-    </div>
-
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-  </body>
-</html>
+<div></div></body></html>
